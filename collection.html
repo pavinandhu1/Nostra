@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- offer -->
+
+    <div class="offer-container">
+        <p>Sign Up and <b>GET 20% OFF</b> for your first Order </p>
+        <p class="close-icon">x</p>
+    </div>
+
+    <!-- Navbar -->
+
+    <!-- navbar section -->
+
+    <nav class="bg-purple-200 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Nostra</h1>
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 hidden md:flex">
+            <li>
+                <a class="hover:underline" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="">New Arrival</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="contact.html">Most Wanted</a>
+            </li>
+
+            <li>
+                <a class="hover:underline" href="contact.html">Collections</a>
+            </li>
+
+            <li>
+                <a class="hover:underline" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    
+
+    <!-- side Navbar -->
+    <section id="sidenavbar" class="bg-purple-200 fixed z-20 top-0 transition-all duration-1000"
+        style="width:50%;height: 100vh; right: -50%;">
+        <div class="text-right p-5">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col gap-5 items-center">
+            <li>
+                <a class="hover:underline" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="">New Arrival</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="contact.html">Most Wanted</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="contact.html">Collections</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+
+    </section>
+
+
+    <!-- filter -->
+    <div class="filter">
+
+        <div class="divide-section">
+
+            <div class="filter_section">
+
+
+
+                <div class="filter_container_s1">
+                    <h3 class="Occasion">Occasion</h3>
+                    <label>
+                        <input type="checkbox" name="check" value="Casual Wear"> Casual Wear
+                    </label>
+                    <label>
+                        <input type="checkbox" name="check" value="Kurti"> Kurti
+                    </label>
+                    <label>
+                        <input type="checkbox" name="check" value="Crop Tops"> Crop Tops
+                    </label>
+
+                </div>
+
+
+
+                <div class="filter_container_s2">
+                    <h3 class="Colors">Colors</h3>
+                    <label>
+                        <input type="checkbox" value="Red"> Red
+                    </label>
+                    <label>
+                        <input type="checkbox" vlaue="Blue"> Blue
+                    </label>
+                    <label>
+                        <input type="checkbox" value="White"> White
+                    </label>
+                    <label>
+                        <input type="checkbox" value="Green"> Green
+                    </label>
+
+
+                </div>
+
+
+                <div class="filter_container_s3">
+                    <h3 class="Arrivals">Arrivals</h3>
+                    <label>
+                        <input type="checkbox" value="New"> New
+                    </label>
+                    <label>
+                        <input type="checkbox" vlaue="Old"> Old
+                    </label>
+                </div>
+
+            </div>
+
+            <div class="Products_section">
+
+                <div class="search">
+                    <input type="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="Products_container">
+
+                    <div class="Products">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer Section -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+            <h1>Nostra</h1>
+            <p>
+                Discover your style with our latest fashion collections.
+                Quality fashion for every occasion.
+            </p>
+
+            <div class="footer-social">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+        </div>
+
+       
+        <div class="footer-links">
+            <h3>Explore</h3>
+            <a href="#">Home</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">Most Wanted</a>
+            <a href="#">Collections</a>
+        </div>
+
+    
+        <div class="footer-links">
+            <h3>Customer Care</h3>
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+            <a href="#">Shipping Policy</a>
+            <a href="#">Return Policy</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Nostra. All Rights Reserved.</p>
+        <p>Designed with ❤️ for Fashion Lovers</p>
+    </div>
+
+</footer>
+
+
+    <script src="script.js"></script>
+
+    <script src="product.js"></script>
+</body>
+
+</html>
